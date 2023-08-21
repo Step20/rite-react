@@ -1,0 +1,70 @@
+$bg: #1b1a1a;
+$blue: #182ac7;
+$white: #f6f6f6;
+$lbg: #212121;
+$grey: #a4a4a4;
+
+.nav-page {
+  background-color: $bg;
+  .nav {
+    color: $white;
+    .b {
+      color: $white;
+      opacity: 0.6;
+      transition: all 0.3s ease;
+      animation: fadeInDown;
+      animation-duration: 1200ms;
+      &:hover {
+        transition: all 0.3s ease;
+        cursor: pointer;
+        opacity: 0.9;
+      }
+    }
+    .nav-text {
+      color: $white;
+      opacity: 0.9;
+      transition: all 0.3s ease;
+      animation: fadeInDown;
+      animation-duration: 1s;
+      &:hover {
+        transition: all 0.3s ease;
+        cursor: pointer;
+        opacity: 1;
+      }
+    }
+  }
+  .nav-title {
+    font-weight: bolder;
+    color: $white;
+    font-size: calc(1rem + 1.3vw);
+    padding-right: calc(2rem + 3vw);
+    animation: fadeIn;
+    animation-duration: 2000ms;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+    &:hover {
+      color: $white;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      opacity: 1;
+    }
+  }
+  .nav-btn {
+    color: $white;
+    background-color: #00000000;
+    padding: 0.4vw 1.3vw 0.4vw 1.3vw;
+    border-radius: 0px;
+    border: 2px solid $white;
+    animation: fadeInDown;
+    animation-duration: 1200ms;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: $white;
+      color: $bg;
+      border: 2px solid $white;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      transform: scale(1.065);
+    }
+  }
+}

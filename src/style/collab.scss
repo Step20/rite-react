@@ -1,0 +1,229 @@
+$bg: #1b1a1a;
+$blue: #182ac7;
+$white: #f6f6f6;
+$lbg: #212121;
+$grey: #a4a4a4;
+
+.collab-out {
+  overflow: hidden;
+  background-color: $bg;
+  width: 100%;
+  .collab-group {
+    background-color: $bg;
+    display: table;
+    height: 160vh;
+    width: 75%;
+    .collab-b {
+      display: table-cell;
+      vertical-align: middle;
+      .collab-title {
+        h1 {
+          color: $white;
+          font-weight: bold;
+          font-size: calc(2rem + 1.7vw);
+        }
+        p {
+          color: $grey;
+          font-size: large;
+          width: 65%;
+          line-height: 200%;
+        }
+      }
+      .collab-p {
+        align-items: center;
+        margin-left: 1vw;
+        margin-bottom: 7vw;
+        margin-top: 3vw;
+
+        .img-l {
+          background-image: url("../assets/collab1.png");
+
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 20vw;
+        }
+        .img-r {
+          background-image: url("../assets/collab2.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 20vw;
+        }
+      }
+      .collab-text {
+        h3 {
+          color: $white;
+          font-size: calc(1rem + 1.8vw);
+          font-weight: 500;
+        }
+      }
+      p {
+        font-size: calc(0.5rem + 0.8vw);
+        color: $grey;
+      }
+      .arrow-g {
+        .arrow {
+          font-size: calc(2rem + 2vw);
+          color: $white;
+          float: right;
+          transition: all 0.3s ease;
+          &:hover {
+            cursor: pointer;
+            color: #ffffff;
+            transform: translate(5px, -5px);
+            transition: all 0.3s ease;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .collab-out {
+    overflow: hidden;
+    background-color: $bg;
+    width: 100%;
+    .collab-group {
+      background-color: $bg;
+      display: table;
+      height: 160vh;
+      width: 75%;
+      .collab-b {
+        display: table-cell;
+        vertical-align: middle;
+        .collab-title {
+          animation: fadeInUp;
+          animation-duration: 1900ms;
+          h1 {
+            color: $white;
+            font-weight: bold;
+            font-size: calc(2rem + 1.7vw);
+          }
+          p {
+            color: $grey;
+            font-size: medium;
+            width: 73%;
+            line-height: 200%;
+          }
+        }
+        .collab-p {
+          animation: fadeInUp;
+          animation-duration: 2100ms;
+          align-items: center;
+          margin-left: 1vw;
+          margin-bottom: 7vw;
+          margin-top: 3vw;
+
+          .img-l {
+            background-image: url("../assets/collab1.png");
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 20vw;
+          }
+          .img-r {
+            background-image: url("../assets/collab2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 20vw;
+          }
+        }
+        .collab-text {
+          animation: fadeInUp;
+          animation-duration: 2300ms;
+          h3 {
+            color: $white;
+            font-size: calc(1rem + 1vw);
+            font-weight: 500;
+          }
+
+          p {
+            font-size: calc(0.5rem + 0.5vw);
+            color: $grey;
+          }
+          .arrow-g {
+            .arrow {
+              font-size: calc(1.5rem + 1.5vw);
+              color: $white;
+              float: right;
+              transition: all 0.3s ease;
+              &:hover {
+                cursor: pointer;
+                color: #ffffff;
+                transform: translate(5px, -5px);
+                transition: all 0.3s ease;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .collab-out {
+    overflow: hidden;
+    background-color: $bg;
+    width: 100%;
+    .collab-group {
+      background-color: $bg;
+      display: table;
+      height: 140vh;
+      width: 75%;
+      .collab-b {
+        display: table-cell;
+        vertical-align: middle;
+        .collab-title {
+          h1 {
+            color: $white;
+            font-weight: bold;
+            font-size: calc(1.7rem + 1.2vw);
+          }
+          p {
+            color: $grey;
+            font-size: medium;
+            width: 100%;
+            line-height: 200%;
+          }
+        }
+        .collab-p {
+          align-items: center;
+          margin-left: 1vw;
+          margin-bottom: 10vw;
+          margin-top: 3vw;
+
+          .img-l {
+            background-image: url("../assets/collab1.png");
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 30vw;
+          }
+          .img-r {
+            margin-top: 1rem;
+            background-image: url("../assets/collab2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 30vw;
+          }
+        }
+        .collab-text {
+          h3 {
+            color: $white;
+            font-size: calc(1rem + 1vw);
+            font-weight: 500;
+          }
+
+          p {
+            font-size: calc(0.5rem + 0.5vw);
+            color: $grey;
+          }
+          .arrow-g {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

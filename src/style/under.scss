@@ -1,0 +1,155 @@
+$bg: #1b1a1a;
+$blue: #182ac7;
+$white: #f6f6f6;
+$lbg: #212121;
+$grey: #a4a4a4;
+
+.under-out {
+  width: 100%;
+  background-color: $lbg;
+
+  .under-group {
+    background-color: $lbg;
+
+    .under-content {
+      height: calc(12rem + 12vh);
+      .under-body {
+        vertical-align: middle;
+        align-self: center;
+        display: inline;
+
+        h1 {
+          color: $white;
+          font-size: calc(2rem + 1.7vw);
+          font-weight: 500;
+        }
+        p {
+          font-size: calc(0.5rem + 0.7vw);
+          color: $grey;
+        }
+      }
+    }
+  }
+}
+
+.under2-out {
+  width: 100%;
+  background-image: linear-gradient(
+      0deg,
+      rgba(24, 42, 199, 0.73),
+      rgba(24, 42, 199, 0.73)
+    ),
+    url("../assets/under2.jpg");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .under-group {
+    .under-content {
+      height: 55vh;
+      .under-body {
+        vertical-align: middle;
+        align-self: center;
+        display: inline;
+
+        h1 {
+          animation: fadeIn;
+          animation-duration: 2000ms;
+          line-height: 120%;
+          color: $white;
+          font-size: 6vw;
+          font-weight: 900;
+        }
+        .icon {
+          animation: fadeIn;
+          animation-duration: 2200ms;
+          color: $white;
+          font-size: 6vw;
+          transition: all 0.3s ease;
+          &:hover {
+            cursor: pointer;
+            color: #ffffff;
+            transform: translate(5px, 0px);
+            transition: all 0.3s ease;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .under-out {
+    width: 100%;
+    background-color: $lbg;
+
+    .under-group {
+      background-color: $lbg;
+
+      .under-content {
+        height: calc(12rem + 12vh);
+        .under-body {
+          vertical-align: middle;
+          align-self: center;
+          display: inline;
+
+          h1 {
+            color: $white;
+            font-size: calc(2rem + 1.3vw);
+            font-weight: 500;
+          }
+          p {
+            font-size: calc(0.5rem + 0.7vw);
+            color: $grey;
+          }
+        }
+      }
+    }
+  }
+
+  .under2-out {
+    width: 100%;
+    background-image: linear-gradient(
+        0deg,
+        rgba(24, 42, 199, 0.73),
+        rgba(24, 42, 199, 0.73)
+      ),
+      url("../assets/under2.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .under-group {
+      .under-content {
+        height: 55vh;
+        .under-body {
+          vertical-align: middle;
+          align-self: center;
+          display: inline;
+
+          h1 {
+            line-height: 120%;
+            color: $white;
+            font-size: 6vw;
+            font-weight: 900;
+          }
+          .icon {
+            color: $white;
+            font-size: 6vw;
+            transition: all 0.3s ease;
+            &:hover {
+              cursor: pointer;
+              color: #ffffff;
+              transform: translate(5px, 0px);
+              transition: all 0.3s ease;
+            }
+          }
+        }
+      }
+    }
+  }
+}

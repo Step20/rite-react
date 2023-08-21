@@ -1,0 +1,120 @@
+$bg: #1b1a1a;
+$blue: #182ac7;
+$white: #f6f6f6;
+$lbg: #212121;
+$grey: #a4a4a4;
+
+.adv-out {
+  overflow: hidden;
+  background-color: $bg;
+  width: 100%;
+
+  .adv-group {
+    background-color: $bg;
+    display: table;
+    height: 100vh;
+    width: 75%;
+    .adv-b {
+      display: table-cell;
+      vertical-align: middle;
+      .adv-title {
+        animation: fadeInUp;
+        animation-duration: 1900ms;
+        margin-bottom: 3vw;
+        h1 {
+          color: $white;
+          font-weight: bold;
+          font-size: calc(2rem + 1.7vw);
+        }
+        p {
+          color: $grey;
+          font-size: large;
+        }
+      }
+      .adv-content {
+        .adv-card {
+          animation: fadeInUp;
+          animation-duration: 2100ms;
+          &:hover {
+            background-color: #272727;
+            cursor: pointer;
+          }
+          margin-top: 2vw;
+          align-self: center;
+
+          padding: 4vw 1vw 4vw 1vw;
+          background-color: $lbg;
+          .adv-body {
+            width: 90%;
+            h4 {
+              font-size: calc(1rem + 0.9vw);
+              color: $white;
+              font-weight: bold;
+              margin-bottom: 1vw;
+            }
+            p {
+              color: $grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 438px) {
+  .adv-out {
+    overflow: hidden;
+    background-color: $bg;
+    width: 100%;
+
+    .adv-group {
+      background-color: $bg;
+      display: table;
+      height: 100vh;
+      width: 75%;
+      .adv-b {
+        display: table-cell;
+        vertical-align: middle;
+        .adv-title {
+          margin-bottom: 3vw;
+          h1 {
+            color: $white;
+            font-weight: bold;
+            font-size: calc(1.7rem + 1.2vw);
+          }
+          p {
+            color: $grey;
+            font-size: medium;
+          }
+        }
+        .adv-content {
+          .adv-card {
+            &:hover {
+              background-color: #272727;
+              cursor: pointer;
+            }
+            margin-top: 2vw;
+            align-self: center;
+
+            padding: 4vw 1vw 4vw 1vw;
+            background-color: $lbg;
+            .adv-body {
+              width: 90%;
+              h4 {
+                font-size: calc(1rem + 0.5vw);
+                color: $white;
+                font-weight: bold;
+                margin-bottom: 1vw;
+              }
+              p {
+                color: $grey;
+                font-size: medium;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

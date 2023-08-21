@@ -1,0 +1,42 @@
+@import "nav";
+@import "home";
+@import "under";
+@import "adv";
+@import "collab";
+@import "footer";
+
+$bg: #1b1a1a;
+$blue: #182ac7;
+$white: #f6f6f6;
+$lbg: #212121;
+$grey: #a4a4a4;
+
+body {
+  height: 100vh;
+}
+* {
+  scroll-behavior: smooth;
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: $bg;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #363434;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    transition: all 0.3s ease;
+    background: #3f3d3d;
+    cursor: pointer;
+  }
+  font-family: "Inter";
+  margin: 0;
+  padding: 0;
+}
