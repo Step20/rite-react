@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from "reactstrap";
 import CountUp, { useCountUp } from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal/Fade";
 
 export const Under = () => {
   const [loading, setLoading] = React.useState(false);

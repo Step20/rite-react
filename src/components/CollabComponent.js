@@ -4,7 +4,7 @@ import Tilt from "react-vanilla-tilt";
 import collab1 from "../assets/collab1.png";
 import collab2 from "../assets/collab2.png";
 import { BsArrowUpRightCircle } from "react-icons/bs";
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal/Fade";
 
 export const Collab = () => {
   return (

@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from "reactstrap";
 import { FaFacebookF } from "react-icons/fa";
 import { AiFillYoutube } from "react-icons/ai";
 import { AiOutlineGoogle } from "react-icons/ai";
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal/Fade";
 
 export const Footer = () => {
   return (

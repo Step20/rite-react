@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal/Fade";
 
 export const FeatCom = () => {
   return (

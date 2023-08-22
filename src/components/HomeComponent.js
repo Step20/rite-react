@@ -4,7 +4,7 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { HashLink } from "react-router-hash-link";
 import { Parallax } from "react-scroll-parallax";
 import ScrollToTop from "react-scroll-to-top";
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal/Fade";
 import home from "../assets/home.png";
 
 export const Home = () => {

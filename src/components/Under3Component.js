@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { HashLink } from "react-router-hash-link";
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal/Fade";
 
 export const Under3 = () => {
   return (

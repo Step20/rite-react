@@ -21,7 +21,7 @@ import {
   Label,
 } from "reactstrap";
 import { Link } from "react-router-dom";
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal/Fade";
 
 export const PageNav = () => {
   const [isOpen, setIsOpen] = useState(false);
