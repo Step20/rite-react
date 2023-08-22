@@ -12,8 +12,8 @@ $grey: #a4a4a4;
       color: $white;
       opacity: 0.6;
       transition: all 0.3s ease;
-      animation: fadeInDown;
-      animation-duration: 1200ms;
+      // animation: fadeInDown;
+      // animation-duration: 1200ms;
       &:hover {
         transition: all 0.3s ease;
         cursor: pointer;
@@ -24,8 +24,8 @@ $grey: #a4a4a4;
       color: $white;
       opacity: 0.9;
       transition: all 0.3s ease;
-      animation: fadeInDown;
-      animation-duration: 1s;
+      // animation: fadeInDown;
+      // animation-duration: 1s;
       &:hover {
         transition: all 0.3s ease;
         cursor: pointer;
@@ -38,8 +38,8 @@ $grey: #a4a4a4;
     color: $white;
     font-size: calc(1rem + 1.3vw);
     padding-right: calc(2rem + 3vw);
-    animation: fadeIn;
-    animation-duration: 2000ms;
+    // animation: fadeIn;
+    // animation-duration: 2000ms;
     opacity: 0.9;
     transition: all 0.3s ease;
     &:hover {
@@ -55,8 +55,8 @@ $grey: #a4a4a4;
     padding: 0.4vw 1.3vw 0.4vw 1.3vw;
     border-radius: 0px;
     border: 2px solid $white;
-    animation: fadeInDown;
-    animation-duration: 1200ms;
+    // animation: fadeInDown;
+    // animation-duration: 1200ms;
     transition: all 0.3s ease;
     &:hover {
       background-color: $white;

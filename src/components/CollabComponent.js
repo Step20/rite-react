@@ -4,16 +4,15 @@ import Tilt from "react-vanilla-tilt";
 import collab1 from "../assets/collab1.png";
 import collab2 from "../assets/collab2.png";
 import { BsArrowUpRightCircle } from "react-icons/bs";
-import Fade from "react-awesome-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 export const Collab = () => {
   return (
     <div className="collab-out">
-      {" "}
-      <Fade up>
+      <Fade duration="1800" cascade="true">
         <Container className="collab-group mx-auto">
           <div className="collab-b">
-            <Row className="collab-title text-center my-2 animate__animated animate__fadeInUp animate__delay-1s">
+            <Row className="collab-title text-center my-2   animate__fadeInUp animate__delay-1s">
               <Col className="mx-auto ">
                 <h1>Power Collaboration</h1>
                 <p className="mx-auto my-3">
@@ -23,7 +22,7 @@ export const Collab = () => {
                 </p>
               </Col>
             </Row>
-            <Row className="collab-p  mx-auto  text-center animate__animated animate__fadeInUp animate__delay-1s">
+            <Row className="collab-p  mx-auto  text-center  ">
               <Col sm="5" xs="12" className=" mx-auto" xs="12">
                 <div className="img-l" src={collab1} />
               </Col>
@@ -61,7 +60,7 @@ export const Collab = () => {
                 <BsArrowUpRightCircle className="arrow me-auto" />
               </Col>
             </Row>
-            <Row className="collab-text mx-auto my-5 animate__animated animate__fadeInUp animate__delay-1s">
+            <Row className="collab-text mx-auto my-5   animate__fadeInUp animate__delay-1s">
               <Col xs="3 ">
                 <h3>No-code</h3>
               </Col>

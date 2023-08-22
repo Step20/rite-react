@@ -1,15 +1,15 @@
 import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import Tilt from "react-vanilla-tilt";
-import Fade from "react-awesome-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 export const Adv = () => {
   return (
     <div className="adv-out">
-      <Fade up>
+      <Fade duration="1800" cascade="true">
         <Container className="adv-group ">
           <div className="adv-b">
-            <Row className="adv-title text-center my-5 animate__animated animate__fadeInUp animate__delay-1s">
+            <Row className="adv-title text-center my-5   animate__fadeInUp animate__delay-1s">
               <Col>
                 <h1>Rite Advantages</h1>
                 <p>
@@ -17,7 +17,7 @@ export const Adv = () => {
                 </p>
               </Col>
             </Row>
-            <Row className="adv-content my-5 animate__animated animate__fadeInUp animate__delay-1s">
+            <Row className="adv-content my-5   animate__fadeInUp animate__delay-1s">
               <Col md="4" sm="12">
                 <Tilt
                   options={{ max: 12 }}
