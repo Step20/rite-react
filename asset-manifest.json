@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/rite-react/static/css/main.01f27cd7.css",
+    "main.js": "/rite-react/static/js/main.97ad1006.js",
+    "static/js/787.9aa037aa.chunk.js": "/rite-react/static/js/787.9aa037aa.chunk.js",
+    "static/media/under2.jpg": "/rite-react/static/media/under2.fc27001366a7290ac9e9.jpg",
+    "static/media/home.png": "/rite-react/static/media/home.b872a6a9ba4cd39092d8.png",
+    "static/media/collab2.png": "/rite-react/static/media/collab2.eab6c102db76cf115a8e.png",
+    "static/media/collab1.png": "/rite-react/static/media/collab1.85c52b98bfff5d6abe92.png",
+    "index.html": "/rite-react/index.html",
+    "main.01f27cd7.css.map": "/rite-react/static/css/main.01f27cd7.css.map",
+    "main.97ad1006.js.map": "/rite-react/static/js/main.97ad1006.js.map",
+    "787.9aa037aa.chunk.js.map": "/rite-react/static/js/787.9aa037aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01f27cd7.css",
+    "static/js/main.97ad1006.js"
+  ]
+}
